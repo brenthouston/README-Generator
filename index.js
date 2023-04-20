@@ -1,9 +1,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { default: Choices } = require('inquirer/lib/objects/choices');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-const questions = [];
+
+
 inquirer
   .prompt([
     {
@@ -31,35 +32,33 @@ inquirer
     },
     {
       type: 'checkbox',
-      message: 'What is your LinkedIn profile?',
-      name: 'license'
+      message: 'What license do you wish to add?',
+      name: 'license',
       choices: ["GNU GPLv3","MIT License","Apache License 2.0","OpenBSD"],
       
     },
     {
       type: 'input',
-      message: 'What is your LinkedIn profile?',
+      message: 'How do you wish people to contribute?',
       name: 'contributing',
       
     },
     {
       type: 'input',
-      message: 'What is your LinkedIn profile?',
+      message: 'What tests have you preformed?',
       name: 'tests',
       
     },
-    {
-      type: 'input',
-      message: 'What is your LinkedIn profile?',
-      name: 'questions',
-      
-    },
+   
   ])
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+  .then(ans => {
+        
+        fs.writeFile('README.md', generateMarkdown.generateMarkdown(ans), (error)=>{
+          if(error){
+              throw error()
+          }
+          console.log('success')
+        })
+  })
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
-init();
