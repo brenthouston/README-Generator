@@ -31,7 +31,7 @@ inquirer
       
     },
     {
-      type: 'checkbox',
+      type: 'list',
       message: 'What license do you wish to add?',
       name: 'license',
       choices: ["GNU","MIT License","Apache License 2.0","Artistic License 2.0"],
@@ -52,10 +52,10 @@ inquirer
    
   ])
   .then(ans => {
-        
-        fs.writeFile('README.md', generateMarkdown.generateMarkdown(ans), (error)=>{
-          if(error){
-              throw error()
+        console.log(ans)
+        fs.writeFile('README.md', generateMarkdown.generateMarkdown(ans), (err)=>{
+          if(err){
+              throw err
           }
           console.log('success')
         })

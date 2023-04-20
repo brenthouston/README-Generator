@@ -11,7 +11,7 @@ function generateLicenseBadge(license) {
       case 'Apache License 2.0':
         licenseBadge= '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)';
         break;
-      case 'OpenBSD':
+      case 'Artistic License 2.0':
         licenseBadge= '![License](https://img.shields.io/badge/License-OpenBSD-green.svg)';
         break;
       default:
