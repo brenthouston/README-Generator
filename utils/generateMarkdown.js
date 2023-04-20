@@ -2,7 +2,7 @@ function generateLicenseBadge(license) {
     let licenseBadge = '';
   
     switch (license) {
-      case 'GNU GPLv3':
+      case 'GNU':
         licenseBadge = 'https://img.shields.io/badge/License-GPLv3-blue.svg';
         break;
       case 'MIT License':
@@ -30,28 +30,29 @@ function generateLicenseBadge(license) {
     let licenseLink ='';
 
     switch(license){
-        case 'GNU GPLv3':
-            licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/';
+        case 'GNU':
+            licenseLink = 'https://opensource.org/license/lgpl-2-0/';
             break;
           case 'MIT License':
-            licenseLink = 'https://choosealicense.com/licenses/mit/';
+            licenseLink = 'https://opensource.org/license/mit/';
             break;
           case 'Apache License 2.0':
-            licenseLink = 'http://www.apache.org/licenses/LICENSE-2.0 ';
+            licenseLink = 'https://opensource.org/license/apache-2-0/';
             break;
-          case 'OpenBSD':
-            licenseLink = 'https://www.openbsd.org/policy.html';
+          case 'Artistic License 2.0':
+            licenseLink = 'https://opensource.org/license/artistic-license-2-0-php/';
             break;
           default:
             licenseLink = '';
         }
+        return licenseLink;
   }
 
   function generateMarkdown(ans) {
     return `# ${ans.title}
-${generateLicenseBadge(ans.license)}    
+![License](${generateLicenseBadge(ans.license)})    
 ## Description
-         ${ans.description}
+  ${ans.description}
 ## Table of contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -68,10 +69,8 @@ ${generateLicenseBadge(ans.license)}
     
     
 ## License
-
 [![License](${generateLicenseBadge(ans.license)})](${renderLicenseLink(ans.license)})
- 
-    
+     
 ## Contributing
   ${ans.contributing}
     

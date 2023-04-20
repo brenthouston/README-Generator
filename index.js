@@ -34,7 +34,7 @@ inquirer
       type: 'checkbox',
       message: 'What license do you wish to add?',
       name: 'license',
-      choices: ["GNU GPLv3","MIT License","Apache License 2.0","OpenBSD"],
+      choices: ["GNU","MIT License","Apache License 2.0","Artistic License 2.0"],
       
     },
     {
