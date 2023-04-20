@@ -29,7 +29,16 @@
 ## Tests
   none
     
-    
+## Resources
+- [Screencastify](https://app.screecastify.com)
+- [Full Stack Blog](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [Google](https://google.com)
+- [ShieldsIO](https://shields.io/category/build)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [Open Source Iniative](https://opensource.org/licenses/?ls=mit)
+
+
+
 ## Questions
    * [Email](mailto:brentjustinhouston@gmail.com)
    * [GitHub](https://github.com/brenthouston)
