@@ -17,7 +17,7 @@
 ## Usage
   a video walk-thru
 
-   * [Video Walk-thru](chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/05fe063b-f309-4545-y5b5-667f64ecf4bb)
+   * [Video Walk-thru](https://drive.google.com/file/d/1zYdozgv4ZhfeeruwP-k1c_1vKzUHn_74/view)
     
 ## License
 * [License Link](https://opensource.org/license/mit/)
