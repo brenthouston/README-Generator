@@ -17,7 +17,7 @@
     
 ## Usage
   A walk-thru video:
-* [Walk-thru Video](https://drive.google.com/file/d/1_wyLjRoG04GevrbsF4ZRjV5TIZZte7wA/view)
+* [Walk-thru Video](https://drive.google.com/file/d/1PrF5F8ShimMOjbustP8UV6ZC-SqUbHsq/view)
     
     
 ## License
