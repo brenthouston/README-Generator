@@ -52,7 +52,7 @@ inquirer
    
   ])
   .then(ans => {
-        console.log(ans)
+        
         fs.writeFile('README.md', generateMarkdown.generateMarkdown(ans), (err)=>{
           if(err){
               throw err
