@@ -16,7 +16,8 @@
    To get the development environment running, open the index.js file then use the intergrated terminal and at the prompt enter <node index.js> then answer the questions and your README will autopopulate for you. 
     
 ## Usage
-  a walk thru video
+  A walk-thru video:
+* [Walk-thru Video](https://drive.google.com/file/d/1_wyLjRoG04GevrbsF4ZRjV5TIZZte7wA/view)
     
     
 ## License
