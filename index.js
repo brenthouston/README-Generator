@@ -53,7 +53,7 @@ inquirer
   ])
   .then(ans => {
         
-        fs.writeFile('README.md', generateMarkdown.generateMarkdown(ans), (err)=>{
+        fs.writeFile('README_autoPop_Sample.md', generateMarkdown.generateMarkdown(ans), (err)=>{
           if(err){
               throw err
           }
