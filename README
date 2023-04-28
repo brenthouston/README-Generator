@@ -1,7 +1,7 @@
-# Happy Town
+# Note Taker
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)   
 ## Description
-  I was compelled to do it!
+  This is an app that you can create notes with persistant memory. The app was great to build, I learned about express routing and building a server. 
 
 
 
@@ -18,17 +18,17 @@
   * [Questions](#questions)
     
 ## Installation
-  Open terminal and enter{node index.js}
+  Please just navigate to the site https://intense-basin-34904.herokuapp.com/
     
 ## Usage
-  A walkthrough Video
+  none
     
     
 ## License
 * [License Link](https://opensource.org/license/mit/)
      
 ## Contributing
-  Money
+  none
     
     
 ## Tests
